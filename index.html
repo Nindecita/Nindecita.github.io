@@ -50,14 +50,14 @@
   </head>
   <body class="bg-color text-white">
     <!-- HEADER -->
-    <header>
+    <header id="inicio">
       <nav
         class="navbar navbar-expand-lg fixed-top navbar-dark navbar-light bg-transparent"
       >
         <div class="container gap-5">
           <div>
             <img src="assets/img/viajes.svg" alt="Logo Viajes Chile" />
-            <a class="navbar-brand" href="#">Viajes Chile</a>
+            <a class="navbar-brand" href="#inicio">Viajes Chile</a>
           </div>
 
           <button
@@ -78,18 +78,18 @@
             <div>
               <ul class="navbar-nav mx-auto">
                 <li class="nav-item">
-                  <a class="nav-link active" aria-current="page" href="#"
+                  <a class="nav-link active" aria-current="page" href="#inicio"
                     >Inicio</a
                   >
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#">Quienes somos</a>
+                  <a class="nav-link active" href="#article">Quienes somos</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link disabled">Destacados</a>
+                  <a class="nav-link active" href="#destacados">Destacados</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link disabled">Contacto</a>
+                  <a class="nav-link active" href="#contacto">Contacto</a>
                 </li>
               </ul>
             </div>
@@ -157,7 +157,7 @@
     <!-- ARTICLE ¿QUIÉNES SÓMOS?-->
     <article>
       <div class="d-none d-sm-none d-xs-none d-xl-block">
-        <h3 class="text-center my-4">¿QUIÉNES SOMOS?</h3>
+        <h3 id="article" class="text-center my-4">¿QUIÉNES SOMOS?</h3>
         <hr class="container" />
         <div class="container d-flex col-xl-12 gap-2">
           <div class="col-4">
@@ -222,7 +222,7 @@
     <!-- CARDS -->
     <section>
       <div>
-        <h3 class="text-center my-4">DESTACADOS</h3>
+        <h3 id="destacados" class="text-center my-4">DESTACADOS</h3>
       </div>
       <hr class="mx-5" />
       <div class="container d-flex col-xl-12 gap-3">
@@ -294,7 +294,7 @@
     <!-- CONTACT -->
     <section>
       <div>
-        <h3 class="text-center pt-5">CONTACTO</h3>
+        <h3 id="contacto" class="text-center pt-5">CONTACTO</h3>
         <hr class="contact mx-5" />
       </div>
     </section>
