@@ -22,8 +22,10 @@ $(document).ready(function() {
 
   });
 
+  $("#enviarAsunto").tooltip({show: true})
 
+  $("#IngresarNombre").tooltip({show: true})
 
+ 
 
-  
 });

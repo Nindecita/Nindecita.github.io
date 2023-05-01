@@ -246,7 +246,6 @@
           <img
             id="lago"
             src="./assets/img/card2.jpg"
-            id="img-2"
             class="card-img-top"
             alt="Lago con montaña"
           />
@@ -303,20 +302,24 @@
     <!-- FORM -->
     <form class="container">
       <div class="input mb-3">
-        <label for="exampleFormControlInput1" class="form-label">Nombre</label>
+        <label for="ingresarNombre" class="form-label">Nombre</label>
         <input
-          type="email"
+          id="ingresarNombre"
+          title="Por favor, ingresa tu nombre"
+          type="text"
           class="form-control"
-          id="exampleFormControlInput1"
+          data-bs-placement="left"
           placeholder=""
         />
       </div>
       <div class="input mb-3">
-        <label for="exampleFormControlInput1" class="form-label">Asunto</label>
+        <label for="enviarAsunto" class="form-label">Asunto</label>
         <input
-          type="email"
+          id="enviarAsunto"
+          title="Por favor, ingresa un asunto"
+          type="text"
           class="form-control"
-          id="exampleFormControlInput1"
+          data-bs-placement="left"
           placeholder=""
         />
       </div>
