@@ -2,6 +2,7 @@
 
 *{
   font-family: 'Source Sans Pro', sans-serif;
+
 }
 .bg-transparent{
   background-color: transparent !important;
@@ -24,15 +25,12 @@
 .style-icons{
   color: white;
 }
+
 footer{
   height: 5rem;
 }
-#img-2{
+
+ #lago{
   height: 53.5% !important;
 }
-.card{
-  width: 24.4% !important;
-}
-.input{
-  width: 82rem;
-}
+
