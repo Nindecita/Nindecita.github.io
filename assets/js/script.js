@@ -17,8 +17,13 @@ $(document).ready(function() {
     $("#bosque-text").toggle("slow");
   });
 
+  $("#completardatos").on('click', function() {
+    alert("Los datos se ingresaron exitosamente");
 
   });
 
 
 
+
+  
+});
